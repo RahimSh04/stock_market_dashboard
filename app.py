@@ -157,6 +157,9 @@ st.markdown(
     """
     <div class="header-utility">
         <div class="header-signature">© 2026 Rahim Shahzad</div>
+        <a class="header-link-button" href="https://github.com/RahimSh04/stock_market_dashboard" target="_blank" rel="noopener noreferrer">
+            View GitHub Repo
+        </a>
         <div class="header-tech">
             <span class="header-tech-label">Built with</span>
             <span class="header-tech-badge" title="Python" aria-label="Python">

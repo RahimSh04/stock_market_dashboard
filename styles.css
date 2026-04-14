@@ -78,6 +78,35 @@ div[data-baseweb="select"] input:focus {
     letter-spacing: 0.02em;
 }
 
+.header-link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 210px;
+    padding: 0.72rem 1.05rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--text);
+    font-size: 0.84rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.header-link-button:link,
+.header-link-button:visited,
+.header-link-button:active {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.header-link-button:hover {
+    background: rgba(0, 210, 106, 0.08);
+    border-color: rgba(0, 210, 106, 0.35);
+    transform: translateY(-1px);
+}
+
 .header-tech {
     display: flex;
     align-items: center;
@@ -306,5 +335,9 @@ div[data-baseweb="select"] input:focus {
         align-items: flex-start;
         flex-direction: column;
         border-radius: 28px;
+    }
+
+    .header-link-button {
+        width: 100%;
     }
 }
