@@ -31,7 +31,7 @@ def clean_data():
                 "volume": values["5. volume"]
             }
             rows.append(row)
-        time.sleep(10)
+        time.sleep(5)
 
     df = pd.DataFrame(rows)
 
