@@ -189,14 +189,14 @@ st.markdown(
 
 kpi_cols = st.columns(3, gap="large")
 with kpi_cols[0]:
-    render_kpi_card("Best performer (100 days)", data["best_ticker"], data["best_return"])
+    render_kpi_card("Best performer (30 days)", data["best_ticker"], data["best_return"])
 with kpi_cols[1]:
-    render_kpi_card("Worst performer (100 days)", data["worst_ticker"], data["worst_return"], "negative")
+    render_kpi_card("Worst performer (30 days)", data["worst_ticker"], data["worst_return"], "negative")
 with kpi_cols[2]:
     st.markdown(
         f"""
         <div class="metric-card">
-            <div class="metric-label">Average return (100 days)</div>
+            <div class="metric-label">Average return (30 days)</div>
             <div class="metric-name">Across tracked stocks</div>
             <div class="metric-value {get_value_class(data["average_return"])}">{format_percent(data["average_return"])}</div>
         </div>
