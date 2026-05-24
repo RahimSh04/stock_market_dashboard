@@ -82,4 +82,3 @@ It also served as an opportunity to combine financial domain interest with struc
 ├── stock_analysis.db
 ├── styles.css
 ├── requirements.txt
-└── assets/
