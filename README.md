@@ -1,88 +1,75 @@
 # Market Analytics Dashboard
 
-A financial analytics dashboard designed to transform raw market data into structured reporting workflows and operational insights.
+An interactive financial analytics dashboard designed to organize, analyze, and visualize market performance data through structured reporting workflows.
 
 ## Overview
 
-The Market Analytics Dashboard was built to explore how financial market data can be collected, processed, analyzed, and visualized through a structured analytics workflow. The project focuses on transforming raw time-series market data into actionable reporting outputs that support performance tracking, trend analysis, and operational visibility.
+The Market Analytics Dashboard was developed to explore how financial market data can be transformed into meaningful analytical views that support performance monitoring, trend analysis, and operational reporting.
 
-The goal of the project was not to build a trading platform, but rather to simulate how analytical workflows and reporting systems can be used to organize and interpret large volumes of financial information.
+The project combines financial data retrieval, structured analytical processing, and dashboard visualization into a reporting-oriented workflow inspired by modern business intelligence and operational analytics environments.
+
+Rather than focusing on trading execution or investment recommendations, the project was designed around the idea of improving visibility into financial performance through structured analytics and reporting.
 
 ---
 
 ## Key Features
 
-- Automated market data ingestion using external financial APIs
-- Structured SQL-based storage and transformation workflows
-- Interactive dashboarding and reporting interface
-- Trend and performance analysis across selected equities
-- Time-series analytics and historical market comparisons
-- Operational reporting views for financial performance monitoring
+- Interactive market analytics dashboard
+- Financial KPI and trend visualization
+- Time-series market performance analysis
+- Dynamic filtering and reporting views
+- Structured analytical workflows
+- Operational reporting layout
 
 ---
 
 ## Workflow
 
-The project follows an end-to-end analytical workflow:
+The project follows a structured analytical workflow:
 
-1. Market data is collected through external APIs
-2. Raw data is cleaned and transformed using Python and SQL
-3. Processed information is stored within a relational database
-4. Analytical queries generate performance and trend insights
-5. Dashboards visualize operational and financial metrics
+1. Market data is retrieved through external APIs
+2. Data is processed and analyzed using Python and Pandas
+3. Structured calculations generate analytical metrics and trend insights
+4. Reporting views visualize performance indicators and market behavior
+5. Interactive dashboard components allow exploration of different analytical perspectives
 
-This workflow was designed to reflect how reporting pipelines and analytical systems operate within enterprise environments.
+The workflow was designed to simulate how reporting and analytics systems can improve operational visibility and financial performance monitoring.
 
 ---
 
 ## Technologies Used
 
 - Python
-- SQL
-- PostgreSQL / SQLite
-- Streamlit
-- Financial APIs
 - Pandas
-- Data visualization libraries
+- SQL / SQLite
+- Streamlit
+- Requests API
+- dotenv
 
 ---
 
 ## Analytical Focus Areas
 
-The dashboard was designed around several analytical themes:
-
-- Financial performance tracking
-- Market trend analysis
-- Historical data reporting
-- Operational analytics workflows
-- Structured data transformation
-- KPI visibility and reporting
+- Financial performance analysis
+- Market trend reporting
+- KPI visualization
+- Time-series analytics
+- Operational reporting workflows
+- Interactive dashboard analytics
 
 ---
 
 ## Project Objectives
 
 This project was developed to strengthen practical experience across:
-- Data transformation workflows
 - Financial analytics
-- Reporting system design
 - Dashboard development
-- SQL-based analytical pipelines
-- Operational decision-support tooling
+- Reporting workflow design
+- Data transformation workflows
+- Analytical problem solving
+- Business-oriented reporting systems
 
-It also served as an opportunity to combine financial domain interest with analytical and technical problem-solving in a structured business-oriented context.
-
----
-
-## Future Improvements
-
-Potential future enhancements include:
-- Real-time streaming data pipelines
-- Advanced portfolio analytics
-- Predictive trend modeling
-- Expanded KPI reporting
-- Multi-source financial data integration
-- User-configurable reporting dashboards
+It also served as an opportunity to combine financial domain interest with structured analytical and operational reporting workflows.
 
 ---
 
@@ -93,5 +80,6 @@ Potential future enhancements include:
 ├── main.py
 ├── data_exploration.py
 ├── stock_analysis.db
+├── styles.css
 ├── requirements.txt
 └── assets/
